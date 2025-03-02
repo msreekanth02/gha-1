@@ -13,7 +13,7 @@ jobs:
     - name: Install Cowsay Program
       run: sudo apt-get install cowsay -y
     
-    - nane: Execute Cowsay CMD
+    - name: Execute Cowsay CMD
       run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWAR" >> dragon.txt
     
     - name: Test File Exists
